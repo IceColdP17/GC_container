@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: streamlit-dashboard
-        image: gcr.io/group4-project-459616/streamlit-dashboard:v4
+        image: gcr.io/your-project-id/streamlit-dashboard:v4
         ports:
         - containerPort: 8501
 
