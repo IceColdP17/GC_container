@@ -11,4 +11,4 @@ This project is an interactive data visualization dashboard built with Streamlit
 
 ## Project Structure
 
-## URL :http://34.73.152.6/
+## URL :https://datanyc1990to2024.streamlit.app/
