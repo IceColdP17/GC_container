@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamlit-dashboard
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: streamlit-dashboard
+  template:
+    metadata:
+      labels:
+        app: streamlit-dashboard
+    spec:
+      containers:
+      - name: streamlit-dashboard
+        image: gcr.io/group4-project-459616/streamlit-dashboard:v4
+        ports:
+        - containerPort: 8501
+
